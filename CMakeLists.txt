@@ -17,8 +17,8 @@ find_package(Qt5 COMPONENTS
 add_executable(CPPL370401 main.cpp
                           calculatormainwindow.h
                           calculatormainwindow.cpp
-        mainwindow.h
-        mainwindow.cpp)
+                          mainwindow.h
+                          mainwindow.cpp)
 target_link_libraries(CPPL370401
         Qt5::Core
         Qt5::Gui
